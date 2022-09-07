@@ -1,0 +1,24 @@
+{
+  "name": "davidayo",
+  "version": "1.0.0",
+  "description": "Flappy Bird App",
+  "main": "server.tsx",
+  "scripts": {
+    "start": "node server.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flappy",
+    "bird",
+    "phaser"
+  ],
+  "author": "David Ayo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.15"
+  }
+}
