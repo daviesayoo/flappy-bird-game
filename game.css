@@ -7,7 +7,7 @@
 }
 
 body{
-    background: #fff;
+    background: #EAEDED;
     padding: 0px;
     margin: 0px;
 }
@@ -19,4 +19,9 @@ canvas{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.icon{
+    margin-top: 20px;
+    margin-left: 10px;
 }
