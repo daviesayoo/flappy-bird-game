@@ -6,12 +6,12 @@ Daniel Schiffman's videos. The most basic version
 ![alt text](https://psmag.com/.image/t_share/MTI3NTgyMjIwOTYwNjM1MzU4/flappy-bird.jpg)
 
 # Installing
-    # compression
-        - npm install 
-    # express 
-        - npm install express
-    # path
-        - npm install 
+    compression
+        - https://www.npmjs.com/package/compression
+    express 
+        - https://www.npmjs.com/package/express
+    path
+        - https://www.npmjs.com/package/path
 
 # Run Program
 - yarn start,
