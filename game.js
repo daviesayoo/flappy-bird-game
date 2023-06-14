@@ -9,7 +9,7 @@ window.onload = function(){
                 gravity: {
                     y: 600
                 },
-                debug: false;
+                debug: false
             }
         },
         scale: {
