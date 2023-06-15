@@ -15,5 +15,5 @@ Daniel Schiffman's videos. The most basic version
 
 # Run Program
 - yarn start,
-- nodemon server.tsx or,
+- nodemon server.jsx or,
 - npm start

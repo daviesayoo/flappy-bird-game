@@ -2,9 +2,9 @@
   "name": "davidayo",
   "version": "1.0.0",
   "description": "Flappy Bird App",
-  "main": "server.tsx",
+  "main": "server.jsx",
   "scripts": {
-    "start": "node server.tsx",
+    "start": "node server.jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -21,5 +21,13 @@
   },
   "devDependencies": {
     "@types/node": "^18.7.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviesayoo/flappy-bird-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daviesayoo/flappy-bird-game/issues"
+  },
+  "homepage": "https://github.com/daviesayoo/flappy-bird-game#readme"
 }

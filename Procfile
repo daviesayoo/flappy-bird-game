@@ -1,1 +1,1 @@
-web:node server.tsx
+web:node server.jsx
