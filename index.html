@@ -36,7 +36,32 @@
         </div>
     
     
-		
+		<div id="cookie-panel" class="cookie-panel">
+        <div class="cookie-content">
+            <p class="paragraph-10">We use cookies to ensure you get the best experience on our website. Consult our <a href="/privacypolicy"><span>Privacy Policy</span></a>.</p>
+            <a id="accept-cookie" href="#" onclick="cookieName4()" class="button-primary cookie-button w-button">Accept</a>
+        </div>
+        <div class="html-embed-3 w-embed w-script">
+            <script src="https://cdn.jsdelivr.net/npm/js-cookie@2"></script>
+            <script>
+                window.addEventListener('load', function() {
+                    setTimeout(function() {
+                        var cookieName4 = 'davidayo_cookie_policy';
+                        if (typeof Cookies.get(cookieName4) !== 'true') {
+                            document.getElementById('cookie-panel').remove();
+                            console.log('Cookie panel removed');
+                        }
+                        document.getElementById('accept-cookie').addEventListener('click', function() {
+                            console.log('Accept button clicked');
+                            Cookies.set(cookieName4, 'ok', {
+                                expires: 365
+                            });
+                        });
+                    }, 5000);
+                });
+            </script>
+        </div>
+    </div>
 	</body>
 
 
