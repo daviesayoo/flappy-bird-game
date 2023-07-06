@@ -1,7 +1,0 @@
-#we use ExpressJS as our technology platform
-# This robots.txt allows indexing of all site paths.
-
-User-agent: *
-Disallow:
-
-Sitemap: https://www.davidayo.com/sitemap_index.xml
