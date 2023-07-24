@@ -48,7 +48,7 @@
                 <script>
                     window.addEventListener('load', function () {
                         setTimeout(function () {
-                            var cookieName4 = 'davidayo_cookie_policy';
+                            const cookieName4 = 'davidayo_cookie_policy';
                             if (typeof Cookies.get(cookieName4) !== 'true') {
                                 document.getElementById('cookie-panel').remove();
                                 console.log('Cookie panel removed');
@@ -59,7 +59,7 @@
                                     expires: 500
                                 });
                             });
-                        }, 3000);
+                        }, 5000);
                     });
                 </script>
             </div>
