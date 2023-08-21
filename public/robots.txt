@@ -3,5 +3,6 @@
 
 User-agent: *
 Disallow:
+Allow: /*.mp4$
 
 Sitemap: http://davidflappy-bird-game22.vercel.app/sitemap_index.xml
