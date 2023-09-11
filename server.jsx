@@ -6,7 +6,6 @@ const router = express.Router();
 const compression = require('compression');
 
 
-
 // app.use(secure);
 app.disable('etag');  //this for a change of StatusCode 304 to 200 OK
 app.use(compression());
