@@ -299,7 +299,7 @@ class FlappyBirdScene extends Phaser.Scene {
 
 		const pipeBottom = this.pipes.create(288, top + 420, this.currentPipe.bottom).setImmovable(true);
 		pipeBottom.body.allowGravity = false;			
-	}
-}
+	};
+};
 
 export default FlappyBirdScene;
