@@ -50,6 +50,6 @@ const assets = {
             stop: 'stop-ground'
         }
     }
-}
+};
 
 export default assets;

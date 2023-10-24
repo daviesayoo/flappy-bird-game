@@ -16,8 +16,9 @@ app.get('/', function(req, res){
 	res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-const PORT = process.env.PORT || 8080;
 app.use('/', router);
+
+const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, function(err) {
 	if (err) console.log(err);

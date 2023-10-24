@@ -1,5 +1,5 @@
 import assets from './assets.js';
-import FlappyBird from './FlappyBird.js';
+import FlappyBird from './FlappyBird.js'
 
 class FlappyBirdScene extends Phaser.Scene {
 	constructor(){

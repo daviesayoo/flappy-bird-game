@@ -2,7 +2,7 @@
 # This robots.txt allows indexing of all site paths.
 
 User-agent: *
-Disallow:
 Allow: /*.mp4$
 
+Disallow: 
 Sitemap: http://davidflappy-bird-game22.vercel.app/sitemap_index.xml

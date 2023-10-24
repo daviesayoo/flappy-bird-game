@@ -44,6 +44,6 @@ class FlappyBird extends Phaser.GameObjects.Sprite {
 	getRandom(){
 		return Phaser.Math.RND.pick([assets.bird.yellow, assets.bird.red, assets.bird.blue]);
 	}
-}
+};
 
 export default FlappyBird;

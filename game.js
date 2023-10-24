@@ -1,6 +1,6 @@
 import FlappyBirdScene from './js/FlappyBirdScene.js';
 
-window.onload = function(){
+window.onload = function() {
     const config = {
         type: Phaser.AUTO,
         physics: {
