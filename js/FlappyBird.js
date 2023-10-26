@@ -1,6 +1,6 @@
 import assets from './assets.js';
 
-class FlappyBird extends Phaser.GameObjects.Sprite {
+class FlappyBird extends Phaser.GameObjects.Sprite{
 	constructor(scene, x, y){
 		super(scene, x, y);
 		this.bird = this.getRandom();

@@ -48,8 +48,8 @@ const assets = {
         ground: {
             moving: 'moving-ground',
             stop: 'stop-ground'
-        }
-    }
+        },
+    },
 };
 
 export default assets;

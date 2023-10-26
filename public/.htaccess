@@ -14,8 +14,7 @@
 # This domain inherits the "PHP" package
 #php -- END cPanel-generated handler, do not edit
 
-<VirtualHost *:443>
-  
+<VirtualHost *:443>  
 
   Protocols h2 http/1.1
   H2Direct on
@@ -115,6 +114,6 @@ Header always set Content-Security-Policy upgrade-insecure-requests;"
     Header set Connection upgrade
 
     <FilesMatch "\.(php|html|css|js)$">
-        SetHandler application/x-httpd-lsphp
+     SetHandler application/x-httpd-lsphp
     </FilesMatch>
 </IfModule>
